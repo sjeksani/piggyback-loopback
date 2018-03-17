@@ -1,0 +1,24 @@
+{
+  "name": "piggyback-loopback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "piggyback-loopback": "node piggyback-loopback.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garysteinmetz/piggyback-loopback.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garysteinmetz/piggyback-loopback/issues"
+  },
+  "homepage": "https://github.com/garysteinmetz/piggyback-loopback#readme",
+  "devDependencies": {
+    "https": "^1.0.0",
+    "pem": "^1.9.7"
+  }
+}
