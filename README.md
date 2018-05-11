@@ -35,10 +35,13 @@ This email documents draft instructions for using a locally-compiled version of 
 (Why should I care?)
 Maybe you shouldn't, but this technique allows you to use your local code (with log statements preserved) while using a non-local version of the application (like Dev3). This gives you a much better setup for (A) troubleshooting problems on a non-local environment and (B) having much greater confidence what changes you make locally will work the same on the target environment (like Dev3). For instance, this methodology should allow you to troubleshoot/remediate a Production problem without having to deploy the remediation to Production. 
 (How's it done?)
-The (sadly lengthy) draft instructions are listed below.  
+The (sadly lengthy) draft instructions are listed below.
+
  1) Open a command prompt and download the MCC project
   - git clone -b release/november-2017 https://bitbucket-fof.appl.kp.org/scm/kpweb/coverage-costs.git
+  
  2) Go to the MMC project another directory - cd coverage-costs/ui.resources
+ 
  3) Make whatever changes you'd like that will appear on the Dev3 MCC page (like diagnostic log statements, you can repeat this and the below steps later if you want to make additional changes)
  4) In the 'package.json' file, remove the 'cross-env STRIP_CONSOLE_LOG=true ' part of the 'build:mccAem' command (this will ensure that log statements are stripped)
  5) Download the MCC project libraries with this command - npm install
