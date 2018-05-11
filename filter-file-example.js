@@ -1,4 +1,6 @@
 
+//The code below replaces only actual javascript files with your compiled javascript code in app.bundle.js
+
 var fs = require('fs');
 var filter = function(req, body, res) {
     var outValue = true; 
