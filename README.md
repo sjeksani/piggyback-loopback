@@ -23,11 +23,6 @@ How to Use
 Using Local Copy of Application While Using the Application on an Environment Like Dev3 or Dev20:
 
 
-Skip to end of metadata
-
-
-Go to start of metadata
-
 The following instructions for using a locally-compiled version of the MCC (Nov release) application while your local browser is accessing a non-local environment (like Dev3) are from an email entitled 'MCC Project - Draft instructions for using local copy of application while using the application on an environment like Dev3' by Gary Steinmetz sent on September 27, 2017.
  
 (What is this?)
